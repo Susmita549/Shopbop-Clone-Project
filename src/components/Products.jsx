@@ -97,7 +97,9 @@ const Products = () => {
             </select>
           </div>
           <div id={styles.clear}>
-            <p onClick={() => window.location.reload()} style={{margin:'0'}}>CLEAR ALL</p>
+            <p onClick={() => window.location.reload()} style={{ margin: "0" }}>
+              CLEAR ALL
+            </p>
           </div>
         </div>
 
@@ -105,10 +107,14 @@ const Products = () => {
           {/* <input type="text" placeholder="Search Products" onKeyPress={handleSearch} /> */}
           <strong>
             Sort By:
-            <select onChange={handleSort}>
-              <option>Newest</option>
-              <option value="lth">LowToHigh</option>
-              <option value="htl">HighToLow</option>
+            <select onChange={handleSort} style={{ cursor: "pointer" }}>
+              <option style={{ cursor: "pointer" }}>Newest</option>
+              <option style={{ cursor: "pointer" }} value="lth">
+                LowToHigh
+              </option>
+              <option style={{ cursor: "pointer" }} value="htl">
+                HighToLow
+              </option>
             </select>
           </strong>
         </div>

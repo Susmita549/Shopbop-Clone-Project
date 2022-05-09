@@ -17,7 +17,7 @@ const Cart = () => {
 
   React.useEffect(() => {
     const calcTotal=()=>{
-      let total = cartData.reduce((acc,el) => acc + el.price ,0);
+      let total = parseInt(cartData.reduce((acc,el) => acc + el.price ,0));
       setTotal(total);
       setSubTotal(total);
     }
@@ -36,7 +36,7 @@ const Cart = () => {
     var matches = promo.match(/(\d+)/);
     if (matches) {
       let newTotal = subTotal - subTotal*parseInt(matches[0])/100;
-      setSubTotal(Math.floor(newTotal));
+      setSubTotal(parseInt(newTotal.toFixed(2)));
     }
   } 
   

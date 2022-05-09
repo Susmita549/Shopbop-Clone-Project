@@ -129,6 +129,7 @@
   #clear {
     font-size: 11px;
     color: #000;
+    cursor: pointer;
   }
   #filter {
     font-size: 11px;
