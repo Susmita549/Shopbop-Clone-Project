@@ -1,4 +1,4 @@
-Clone of Shopbob: Website link:-https://www.shopbop.com/ In the construct week of unit-4, we tried to make clone of Shopbob Website.we tried to built as much as functionalities and pages as the original website.
+Clone of Shopbob: Website link:-[https://www.shopbop.com/](https://shopbop-clone-project.netlify.app/) In the construct week of unit-4, we tried to make clone of Shopbob Website.we tried to built as much as functionalities and pages as the original website.
 
 Description:- We had to clone the Shopbob Website. Shopbop is an online fashion store that carries a variety of brands and designers that range from affordable to luxury. They carry everything from shoes to handbags to dresses and athletic clothing. Shopbop is primarily geared toward women, but they do have a men's section as well. We have made all the pages like landing page,signup page, login page, product page,cart page,payment page add to cart page etc with different functionalities and simple and attractive UI.
 
