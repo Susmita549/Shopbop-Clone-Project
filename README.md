@@ -9,7 +9,7 @@ Description:- We had to clone the Shopbob Website. Shopbop is an online fashion 
 ![image](https://user-images.githubusercontent.com/99960489/190473953-e0fa67bb-d265-443c-8537-1709113a4512.png)
 
 
-
+Deploy Link - https://shopbop-clone-project.netlify.app/
 Technologies Used:- ● REACT ● CSS ● REDUX
 
 Getting Started:- We started making our project with an group meeting. We have 6 members in our team. We started a zoom meeting and discussed on which part who will work and divide our task. We started with creating a repository on GitHub, and assigned them to the respective person by creating branches.
